@@ -1,0 +1,6 @@
+./Allclean
+
+blockMesh
+icoFoam > log &
+cat log
+touch blasius_laminar_github.foam
